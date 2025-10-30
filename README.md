@@ -46,7 +46,10 @@ Each problem focuses on **loops, conditionals, arrays, strings, patterns, and ba
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Nihar2704/30-logic_building_problems.git
+
 2 Open the folder
+
    cd 30LogicBuildingProblems
+   
 3.Compile and run any Java file
    
