@@ -49,7 +49,7 @@ Each problem focuses on **loops, conditionals, arrays, strings, patterns, and ba
 
 2 Open the folder
 
-   cd 30LogicBuildingProblems
+   cd 30-logic_building_problems
    
 3.Compile and run any Java file
    
