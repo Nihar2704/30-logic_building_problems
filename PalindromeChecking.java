@@ -1,5 +1,4 @@
 import java.util.Scanner;
-public class PalindromeCheck {
 
     public class PalindromeChecking {
         public static void main(String[] args) {
@@ -47,4 +46,4 @@ public class PalindromeCheck {
         }
     }
 
-}
+
