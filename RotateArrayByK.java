@@ -18,6 +18,15 @@ public class RotateArrayByK {
         reverseElem(arr,k,n-1); // It will rotate the rest of the elements
     }
 
+    static void rotateLeft(int [] arr, int k){
+        int n = arr.length;
+        k = k % n;
+        reverseElem(arr,0,k-1);  // It will rotate the first two elements in array
+        reverseElem(arr,k,n-1); // It will rotate remaining n-k elements
+        reverseElem(arr,0,n-1); // It will reverse all elements of array
+    }
+
+
 
     public static void main(String[] args) {
         Scanner var = new Scanner(System.in);
@@ -31,7 +40,7 @@ public class RotateArrayByK {
 
         System.out.println("Enter the value of k:");
         int k = var.nextInt();
-        rotateRight(arr,k);
+        rotateLeft(arr,k);
         System.out.println("Array elements after k rotation:");
         for (int elem: arr){
             System.out.println(elem);
